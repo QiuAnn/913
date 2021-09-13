@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!(comment.pull_request_review&&comment.root_node)">
+  <div v-if="!(comment.pull_request_review&&comment.root_node)&&false">
     <div
       class="the-comment-group"
       :class="[isDiff ? 'diff' : 'normal']"
