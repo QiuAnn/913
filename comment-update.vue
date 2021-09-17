@@ -7,8 +7,7 @@
     >
       <comment-normalddddddddddd
         v-if="!isDiff"
-        :comment="comment"
-        :isDiff="isDiff"
+        :comment="comment"fffffffffffffffff
         :key="comment.created_at"
         :idkey="idkey"
         :lineCode="lineCode"
