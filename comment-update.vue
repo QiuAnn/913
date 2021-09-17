@@ -5,7 +5,7 @@
       :class="[isDiff ? 'diff' : 'normal']"
       v-if="isDiff ? comment.notes && comment.notes.length : true"
     >
-      <comment-normal
+      <comment-normalddddddddddd
         v-if="!isDiff"
         :comment="comment"
         :isDiff="isDiff"
